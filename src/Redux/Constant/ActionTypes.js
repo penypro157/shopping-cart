@@ -1,0 +1,9 @@
+export const GET_LIST_ALL = "GET_LIST_ALL";
+export const GET_SAVE_JOB = "GET_SAVE_JOB";
+export const UPDATE_SAVE_JOB = "UPDATE_SAVE_JOB";
+export const UPDATE_JOB = "UPDATE_JOB";
+export const DELETE_JOB = "DELETE_JOB";
+export const TOGGLE_POPUP = "TOGGLE_POPUP";
+export const RESET_SAVE_JOB = "RESET_SAVE_JOB";
+export const SEARCH_JOB = "SEARCH_JOB";
+export const SORT_JOB = "SORT_JOB";
