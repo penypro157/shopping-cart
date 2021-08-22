@@ -14,9 +14,9 @@ import { createStore } from 'redux';
 class App extends Component {
   store = createStore(myReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
   render() {
+    console.log(123);
     return (
       <div>
-
         <BrowserRouter>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
             <h1 className="navbar-brand" >ReactJS</h1>
