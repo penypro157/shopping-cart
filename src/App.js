@@ -51,8 +51,7 @@ class App extends Component {
             <Route path="/component">
               <h1>Studied</h1>
             </Route>
-            <Route path="/jsx">
-              <JSX />
+            <Route path="/jsx" component={JSX}>
             </Route>
             <Route path="/props">
               <Props />
